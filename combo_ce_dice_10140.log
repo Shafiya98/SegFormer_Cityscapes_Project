@@ -1,0 +1,188 @@
+cuda
+Train Images : 2975
+Validation Images : 500
+torch.Size([4, 3, 512, 512])
+torch.Size([4, 1, 512, 512])
+tensor([  0,   1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  13,  14,
+         18, 255], dtype=torch.uint8)
+Fresh Pretrained Model Loaded Successfully 
+Combo (CE + Dice) Loss Initialized Successfully
+Epoch 001/150 | Loss: 0.2797 | Val Pixel Acc: 0.9390 | Val mIoU: 0.6472 | LR: 0.00001000
+ Best Combo (CE + Dice) Model Saved (mIoU: 0.6472)
+Epoch 002/150 | Loss: 0.2701 | Val Pixel Acc: 0.9396 | Val mIoU: 0.6498 | LR: 0.00001000
+ Best Combo (CE + Dice) Model Saved (mIoU: 0.6498)
+Epoch 003/150 | Loss: 0.2653 | Val Pixel Acc: 0.9399 | Val mIoU: 0.6483 | LR: 0.00000999
+Epoch 004/150 | Loss: 0.2622 | Val Pixel Acc: 0.9404 | Val mIoU: 0.6541 | LR: 0.00000998
+ Best Combo (CE + Dice) Model Saved (mIoU: 0.6541)
+Epoch 005/150 | Loss: 0.2587 | Val Pixel Acc: 0.9402 | Val mIoU: 0.6528 | LR: 0.00000997
+Epoch 006/150 | Loss: 0.2584 | Val Pixel Acc: 0.9405 | Val mIoU: 0.6514 | LR: 0.00000996
+Epoch 007/150 | Loss: 0.2552 | Val Pixel Acc: 0.9403 | Val mIoU: 0.6561 | LR: 0.00000995
+ Best Combo (CE + Dice) Model Saved (mIoU: 0.6561)
+Epoch 008/150 | Loss: 0.2549 | Val Pixel Acc: 0.9407 | Val mIoU: 0.6502 | LR: 0.00000993
+Epoch 009/150 | Loss: 0.2523 | Val Pixel Acc: 0.9403 | Val mIoU: 0.6483 | LR: 0.00000991
+Epoch 010/150 | Loss: 0.2511 | Val Pixel Acc: 0.9411 | Val mIoU: 0.6587 | LR: 0.00000989
+ Best Combo (CE + Dice) Model Saved (mIoU: 0.6587)
+?? Epoch 10 Backup Saved
+Epoch 011/150 | Loss: 0.2499 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6555 | LR: 0.00000987
+Epoch 012/150 | Loss: 0.2496 | Val Pixel Acc: 0.9411 | Val mIoU: 0.6577 | LR: 0.00000984
+Epoch 013/150 | Loss: 0.2477 | Val Pixel Acc: 0.9408 | Val mIoU: 0.6505 | LR: 0.00000982
+Epoch 014/150 | Loss: 0.2469 | Val Pixel Acc: 0.9408 | Val mIoU: 0.6524 | LR: 0.00000979
+Epoch 015/150 | Loss: 0.2454 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6619 | LR: 0.00000976
+ Best Combo (CE + Dice) Model Saved (mIoU: 0.6619)
+Epoch 016/150 | Loss: 0.2440 | Val Pixel Acc: 0.9411 | Val mIoU: 0.6594 | LR: 0.00000972
+Epoch 017/150 | Loss: 0.2437 | Val Pixel Acc: 0.9411 | Val mIoU: 0.6571 | LR: 0.00000969
+Epoch 018/150 | Loss: 0.2431 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6600 | LR: 0.00000965
+Epoch 019/150 | Loss: 0.2419 | Val Pixel Acc: 0.9417 | Val mIoU: 0.6601 | LR: 0.00000961
+Epoch 020/150 | Loss: 0.2419 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6538 | LR: 0.00000957
+?? Epoch 20 Backup Saved
+Epoch 021/150 | Loss: 0.2416 | Val Pixel Acc: 0.9410 | Val mIoU: 0.6527 | LR: 0.00000952
+Epoch 022/150 | Loss: 0.2404 | Val Pixel Acc: 0.9410 | Val mIoU: 0.6526 | LR: 0.00000948
+Epoch 023/150 | Loss: 0.2400 | Val Pixel Acc: 0.9411 | Val mIoU: 0.6541 | LR: 0.00000943
+Epoch 024/150 | Loss: 0.2387 | Val Pixel Acc: 0.9409 | Val mIoU: 0.6507 | LR: 0.00000938
+Epoch 025/150 | Loss: 0.2369 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6567 | LR: 0.00000933
+Epoch 026/150 | Loss: 0.2371 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6533 | LR: 0.00000928
+Epoch 027/150 | Loss: 0.2370 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6579 | LR: 0.00000922
+Epoch 028/150 | Loss: 0.2373 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6589 | LR: 0.00000916
+Epoch 029/150 | Loss: 0.2365 | Val Pixel Acc: 0.9410 | Val mIoU: 0.6512 | LR: 0.00000911
+Epoch 030/150 | Loss: 0.2346 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6570 | LR: 0.00000905
+?? Epoch 30 Backup Saved
+Epoch 031/150 | Loss: 0.2351 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6573 | LR: 0.00000898
+Epoch 032/150 | Loss: 0.2351 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6596 | LR: 0.00000892
+Epoch 033/150 | Loss: 0.2348 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6572 | LR: 0.00000885
+Epoch 034/150 | Loss: 0.2343 | Val Pixel Acc: 0.9411 | Val mIoU: 0.6557 | LR: 0.00000878
+Epoch 035/150 | Loss: 0.2332 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6529 | LR: 0.00000872
+Epoch 036/150 | Loss: 0.2324 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6551 | LR: 0.00000864
+Epoch 037/150 | Loss: 0.2323 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6577 | LR: 0.00000857
+Epoch 038/150 | Loss: 0.2320 | Val Pixel Acc: 0.9410 | Val mIoU: 0.6563 | LR: 0.00000850
+Epoch 039/150 | Loss: 0.2310 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6589 | LR: 0.00000842
+Epoch 040/150 | Loss: 0.2307 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6546 | LR: 0.00000835
+?? Epoch 40 Backup Saved
+Epoch 041/150 | Loss: 0.2312 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6587 | LR: 0.00000827
+Epoch 042/150 | Loss: 0.2303 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6593 | LR: 0.00000819
+Epoch 043/150 | Loss: 0.2294 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6543 | LR: 0.00000811
+Epoch 044/150 | Loss: 0.2290 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6567 | LR: 0.00000802
+Epoch 045/150 | Loss: 0.2280 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6561 | LR: 0.00000794
+Epoch 046/150 | Loss: 0.2291 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6597 | LR: 0.00000785
+Epoch 047/150 | Loss: 0.2283 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6545 | LR: 0.00000777
+Epoch 048/150 | Loss: 0.2290 | Val Pixel Acc: 0.9411 | Val mIoU: 0.6557 | LR: 0.00000768
+Epoch 049/150 | Loss: 0.2285 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6580 | LR: 0.00000759
+Epoch 050/150 | Loss: 0.2288 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6573 | LR: 0.00000750
+?? Epoch 50 Backup Saved
+Epoch 051/150 | Loss: 0.2273 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6589 | LR: 0.00000741
+Epoch 052/150 | Loss: 0.2283 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6572 | LR: 0.00000732
+Epoch 053/150 | Loss: 0.2260 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6571 | LR: 0.00000722
+Epoch 054/150 | Loss: 0.2260 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6570 | LR: 0.00000713
+Epoch 055/150 | Loss: 0.2257 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6595 | LR: 0.00000703
+Epoch 056/150 | Loss: 0.2250 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6583 | LR: 0.00000694
+Epoch 057/150 | Loss: 0.2259 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6600 | LR: 0.00000684
+Epoch 058/150 | Loss: 0.2248 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6561 | LR: 0.00000674
+Epoch 059/150 | Loss: 0.2234 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6551 | LR: 0.00000664
+Epoch 060/150 | Loss: 0.2248 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6608 | LR: 0.00000655
+?? Epoch 60 Backup Saved
+Epoch 061/150 | Loss: 0.2231 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6595 | LR: 0.00000645
+Epoch 062/150 | Loss: 0.2231 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6566 | LR: 0.00000634
+Epoch 063/150 | Loss: 0.2232 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6552 | LR: 0.00000624
+Epoch 064/150 | Loss: 0.2230 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6558 | LR: 0.00000614
+Epoch 065/150 | Loss: 0.2236 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6574 | LR: 0.00000604
+Epoch 066/150 | Loss: 0.2220 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6559 | LR: 0.00000594
+Epoch 067/150 | Loss: 0.2229 | Val Pixel Acc: 0.9416 | Val mIoU: 0.6575 | LR: 0.00000583
+Epoch 068/150 | Loss: 0.2229 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6543 | LR: 0.00000573
+Epoch 069/150 | Loss: 0.2217 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6561 | LR: 0.00000563
+Epoch 070/150 | Loss: 0.2214 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6571 | LR: 0.00000552
+?? Epoch 70 Backup Saved
+Epoch 071/150 | Loss: 0.2219 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6564 | LR: 0.00000542
+Epoch 072/150 | Loss: 0.2227 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6562 | LR: 0.00000531
+Epoch 073/150 | Loss: 0.2213 | Val Pixel Acc: 0.9416 | Val mIoU: 0.6589 | LR: 0.00000521
+Epoch 074/150 | Loss: 0.2218 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6556 | LR: 0.00000510
+Epoch 075/150 | Loss: 0.2210 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6530 | LR: 0.00000500
+Epoch 076/150 | Loss: 0.2212 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6540 | LR: 0.00000490
+Epoch 077/150 | Loss: 0.2212 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6560 | LR: 0.00000479
+Epoch 078/150 | Loss: 0.2197 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6580 | LR: 0.00000469
+Epoch 079/150 | Loss: 0.2212 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6579 | LR: 0.00000458
+Epoch 080/150 | Loss: 0.2202 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6563 | LR: 0.00000448
+?? Epoch 80 Backup Saved
+Epoch 081/150 | Loss: 0.2205 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6564 | LR: 0.00000437
+Epoch 082/150 | Loss: 0.2199 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6542 | LR: 0.00000427
+Epoch 083/150 | Loss: 0.2196 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6582 | LR: 0.00000417
+Epoch 084/150 | Loss: 0.2196 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6558 | LR: 0.00000406
+Epoch 085/150 | Loss: 0.2195 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6568 | LR: 0.00000396
+Epoch 086/150 | Loss: 0.2203 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6535 | LR: 0.00000386
+Epoch 087/150 | Loss: 0.2207 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6552 | LR: 0.00000376
+Epoch 088/150 | Loss: 0.2181 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6538 | LR: 0.00000366
+Epoch 089/150 | Loss: 0.2186 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6538 | LR: 0.00000355
+Epoch 090/150 | Loss: 0.2182 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6545 | LR: 0.00000345
+?? Epoch 90 Backup Saved
+Epoch 091/150 | Loss: 0.2188 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6579 | LR: 0.00000336
+Epoch 092/150 | Loss: 0.2182 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6530 | LR: 0.00000326
+Epoch 093/150 | Loss: 0.2193 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6554 | LR: 0.00000316
+Epoch 094/150 | Loss: 0.2184 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6557 | LR: 0.00000306
+Epoch 095/150 | Loss: 0.2173 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6550 | LR: 0.00000297
+Epoch 096/150 | Loss: 0.2178 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6557 | LR: 0.00000287
+Epoch 097/150 | Loss: 0.2188 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6551 | LR: 0.00000278
+Epoch 098/150 | Loss: 0.2190 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6567 | LR: 0.00000268
+Epoch 099/150 | Loss: 0.2176 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6558 | LR: 0.00000259
+Epoch 100/150 | Loss: 0.2174 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6562 | LR: 0.00000250
+?? Epoch 100 Backup Saved
+Epoch 101/150 | Loss: 0.2182 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6522 | LR: 0.00000241
+Epoch 102/150 | Loss: 0.2189 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6555 | LR: 0.00000232
+Epoch 103/150 | Loss: 0.2185 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6535 | LR: 0.00000223
+Epoch 104/150 | Loss: 0.2171 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6546 | LR: 0.00000215
+Epoch 105/150 | Loss: 0.2161 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6550 | LR: 0.00000206
+Epoch 106/150 | Loss: 0.2172 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6557 | LR: 0.00000198
+Epoch 107/150 | Loss: 0.2171 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6551 | LR: 0.00000189
+Epoch 108/150 | Loss: 0.2175 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6547 | LR: 0.00000181
+Epoch 109/150 | Loss: 0.2171 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6542 | LR: 0.00000173
+Epoch 110/150 | Loss: 0.2174 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6570 | LR: 0.00000165
+?? Epoch 110 Backup Saved
+Epoch 111/150 | Loss: 0.2158 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6552 | LR: 0.00000158
+Epoch 112/150 | Loss: 0.2183 | Val Pixel Acc: 0.9415 | Val mIoU: 0.6543 | LR: 0.00000150
+Epoch 113/150 | Loss: 0.2171 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6557 | LR: 0.00000143
+Epoch 114/150 | Loss: 0.2160 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6563 | LR: 0.00000136
+Epoch 115/150 | Loss: 0.2167 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6546 | LR: 0.00000128
+Epoch 116/150 | Loss: 0.2165 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6554 | LR: 0.00000122
+Epoch 117/150 | Loss: 0.2172 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6543 | LR: 0.00000115
+Epoch 118/150 | Loss: 0.2168 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6546 | LR: 0.00000108
+Epoch 119/150 | Loss: 0.2174 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6546 | LR: 0.00000102
+Epoch 120/150 | Loss: 0.2182 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6550 | LR: 0.00000095
+?? Epoch 120 Backup Saved
+Epoch 121/150 | Loss: 0.2159 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6550 | LR: 0.00000089
+Epoch 122/150 | Loss: 0.2157 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6546 | LR: 0.00000084
+Epoch 123/150 | Loss: 0.2175 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6554 | LR: 0.00000078
+Epoch 124/150 | Loss: 0.2159 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6547 | LR: 0.00000072
+Epoch 125/150 | Loss: 0.2169 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6552 | LR: 0.00000067
+Epoch 126/150 | Loss: 0.2164 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6541 | LR: 0.00000062
+Epoch 127/150 | Loss: 0.2159 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6550 | LR: 0.00000057
+Epoch 128/150 | Loss: 0.2163 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6543 | LR: 0.00000052
+Epoch 129/150 | Loss: 0.2170 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6548 | LR: 0.00000048
+Epoch 130/150 | Loss: 0.2157 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6549 | LR: 0.00000043
+?? Epoch 130 Backup Saved
+Epoch 131/150 | Loss: 0.2165 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6553 | LR: 0.00000039
+Epoch 132/150 | Loss: 0.2169 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6538 | LR: 0.00000035
+Epoch 133/150 | Loss: 0.2157 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6548 | LR: 0.00000031
+Epoch 134/150 | Loss: 0.2171 | Val Pixel Acc: 0.9414 | Val mIoU: 0.6550 | LR: 0.00000028
+Epoch 135/150 | Loss: 0.2167 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6543 | LR: 0.00000024
+Epoch 136/150 | Loss: 0.2171 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6546 | LR: 0.00000021
+Epoch 137/150 | Loss: 0.2157 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6554 | LR: 0.00000018
+Epoch 138/150 | Loss: 0.2174 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6555 | LR: 0.00000016
+Epoch 139/150 | Loss: 0.2168 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6547 | LR: 0.00000013
+Epoch 140/150 | Loss: 0.2171 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6552 | LR: 0.00000011
+?? Epoch 140 Backup Saved
+Epoch 141/150 | Loss: 0.2167 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6551 | LR: 0.00000009
+Epoch 142/150 | Loss: 0.2170 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6548 | LR: 0.00000007
+Epoch 143/150 | Loss: 0.2163 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6551 | LR: 0.00000005
+Epoch 144/150 | Loss: 0.2153 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6547 | LR: 0.00000004
+Epoch 145/150 | Loss: 0.2162 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6549 | LR: 0.00000003
+Epoch 146/150 | Loss: 0.2167 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6548 | LR: 0.00000002
+Epoch 147/150 | Loss: 0.2163 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6550 | LR: 0.00000001
+Epoch 148/150 | Loss: 0.2169 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6546 | LR: 0.00000000
+Epoch 149/150 | Loss: 0.2156 | Val Pixel Acc: 0.9412 | Val mIoU: 0.6550 | LR: 0.00000000
+Epoch 150/150 | Loss: 0.2155 | Val Pixel Acc: 0.9413 | Val mIoU: 0.6548 | LR: 0.00000000
+?? Epoch 150 Backup Saved
+
+==========================================
+?? Combo (CE + Dice) Loss Training Completed!
+Best Validation mIoU : 0.6619
+==========================================
+Training Loss Curve Saved
+Validation mIoU Curve Saved
+Results Saved Successfully
